@@ -1,0 +1,87 @@
+div.road {
+  width: 100%;
+  margin-top: 250px;
+}
+div.road div.inner {
+  width: 100%; height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+div.road div.inner > img {
+  width: 1920px; height: 1000px; opacity: .7;
+}
+div.road div.inner > p  {
+  position: absolute; top: 340px; left: 150px;
+  font-size: 18px; font-weight: 500; width: 380px;
+}
+div.road div.inner > p > span {
+  display: block; margin: 30px 0; width: 390px;
+  font-weight: 500; font-size: 46px;
+}
+
+/* swiper */
+
+div.tripbox div.swiper-button-next,div.swiper-button-prev {
+  display: none;
+}
+div.tripbox div.swiper-pagination {
+  display: none;
+}
+div.road div.tripbox {
+  width: 1420px; 
+  position: relative;
+  margin: 0 auto;
+}
+div.tripbox div.swiper div.swiper-wrapper div.swiper-slide ul.trip  {
+  display: flex; justify-content: space-between; align-items: center;
+}
+div.tripbox div.swiper div.swiper-wrapper div.swiper-slide ul.trip li {
+  width: 400px; height: 500px; background-color: #1b1b1bc0;
+}
+div.tripbox div.swiper div.swiper-wrapper div.swiper-slide ul.trip li > img{
+  width: 400px;
+}
+div.tripbox div.swiper div.swiper-wrapper div.swiper-slide ul.trip li > p{
+  margin-left: 30px; margin-top: 20px;
+  font-size: 18px; color: #666666;
+}
+div.tripbox div.swiper div.swiper-wrapper div.swiper-slide ul.trip li > p > span{
+  display: block; margin-top: 20px; margin-bottom: 50px;
+  font-size: 28px; color: #666666;
+}
+div.tripbox div.swiper div.swiper-wrapper div.swiper-slide ul.trip li > a{
+  display: block; margin-left: 30px;
+  font-size: 12px; color: #666666;
+}
+div.tripbox div.swiper div.swiper-wrapper div.swiper-slide ul.trip li > a:hover{
+
+  font-size: 12px; color: #fff; text-decoration: underline; transition: .8s;
+}
+
+
+
+div.tripbox div.swiper div.swiper-wrapper div.swiper-slide ul.trip2  {
+  display: flex; justify-content: space-around; align-items: center;
+}
+div.tripbox div.swiper div.swiper-wrapper div.swiper-slide ul.trip2 li {
+  width: 400px; height: 500px; background-color: #1b1b1bc0;
+}
+div.tripbox div.swiper div.swiper-wrapper div.swiper-slide ul.trip2 li > img{
+  width: 400px;
+}
+div.tripbox div.swiper div.swiper-wrapper div.swiper-slide ul.trip2 li > p{
+  margin-left: 30px; margin-top: 20px;
+  font-size: 18px; color: #666666;
+}
+div.tripbox div.swiper div.swiper-wrapper div.swiper-slide ul.trip2 li > p > span{
+  display: block; margin-top: 20px; margin-bottom: 50px;
+  font-size: 28px; color: #666666;
+}
+div.tripbox div.swiper div.swiper-wrapper div.swiper-slide ul.trip2 li > a{
+  display: block; margin-left: 30px;
+  font-size: 12px; color: #666666;
+}
+div.tripbox div.swiper div.swiper-wrapper div.swiper-slide ul.trip2 li > a:hover{
+
+  font-size: 12px; color: #fff; text-decoration: underline; transition: .8s;
+}

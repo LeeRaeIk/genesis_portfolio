@@ -1,0 +1,136 @@
+
+
+div.main {
+  margin: auto;
+  width: 100%;
+}
+div.main div.swiper {
+  width: 1920px; 
+}
+div.main div.swiper div.swiper-wrapper div.swiper-slide div.inner
+{
+  width: 100%;
+  position: relative;
+}
+div.main div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box
+{
+  width: 100%; height: 870px;
+  background: url(../img/g70_main.png) no-repeat center/cover;
+}
+div.main div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box > p {
+  position: absolute; top: 100px; left: 150px;
+  font-size: 18px; color: #fff; font-weight: 100;
+}
+div.main div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box > p > span {
+  display: block; font-weight: 300;
+  font-size: 90px; margin: 20px 0;
+}
+div.main div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box > ul.menu {
+  position: absolute; top: 400px; left: 150px;
+  display: flex; justify-content: space-between; align-items: center;
+}
+div.main div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box ul.menu > a > li  {
+  width: 150px; color: #fff;
+}
+div.main div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box2
+{
+  width: 100%; height: 870px;
+  background: url(../img/g80_main.png) no-repeat center/cover;
+}
+div.main div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box2 > p {
+  position: absolute; top: 100px; left: 150px;
+  font-size: 18px; color: #fff; font-weight: 100;
+}
+div.main div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box2 > p > span {
+  display: block; font-weight: 300;
+  font-size: 90px; margin: 20px 0;
+}
+div.main div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box2 > ul.menu {
+  position: absolute; top: 400px; left: 150px;
+  display: flex; justify-content: space-between; align-items: center;
+}
+div.main div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box2 ul.menu > a > li  {
+  width: 150px; color: #fff;
+}
+div.main div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box3
+{
+  width: 100%; height: 870px;
+  background: url(../img/g90_main3.png) no-repeat center/cover;
+}
+div.main div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box3 > p {
+  position: absolute; top: 100px; left: 150px;
+  font-size: 18px; color: #fff; font-weight: 100;
+}
+div.main div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box3 > p > span {
+  display: block; font-weight: 300;
+  font-size: 90px; margin: 20px 0;
+}
+div.main div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box3 > ul.menu {
+  position: absolute; top: 400px; left: 150px;
+  display: flex; justify-content: space-between; align-items: center;
+}
+div.main div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box3 ul.menu > a > li  {
+  width: 150px; color: #fff;
+}
+div.main div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box4  {
+  width: 100%; height: 870px;
+  background: url(../img/gv60_main.png) no-repeat center/cover;
+}
+div.main div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box4 > p {
+  position: absolute; top: 100px; left: 150px;
+  font-size: 18px; color: #fff; font-weight: 100;
+}
+div.main div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box4 > p > span {
+  display: block; font-weight: 300;
+  font-size: 90px; margin: 20px 0;
+}
+div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box4 > ul.menu {
+  position: absolute; top: 400px; left: 150px;
+  display: flex; justify-content: space-between; align-items: center;
+}
+div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box4 ul.menu > a > li  {
+  width: 150px; color: #fff;
+}
+div.main div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box5  {
+  width: 100%; height: 870px;
+  background: url(../img/gv70_main.png) no-repeat center/cover;
+}
+div.main div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box5 > p {
+  position: absolute; top: 100px; left: 150px;
+  font-size: 18px; color: #fff; font-weight: 100;
+}
+div.main div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box5 p > span {
+  display: block; font-weight: 300;
+  font-size: 90px; margin: 20px 0;
+}
+div.main div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box5 > ul.menu {
+  position: absolute; top: 400px; left: 150px;
+  display: flex; justify-content: space-between; align-items: center;
+}
+div.main div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box5 ul.menu > a > li  {
+  width: 150px; color: #fff;
+}
+div.main div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box6  {
+  width: 100%; height: 870px;
+  background: url(../img/gv80_main2.png) no-repeat center/cover;
+}
+div.main div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box6 > p {
+  position: absolute; top: 100px; left: 150px;
+  font-size: 18px; color: #fff; font-weight: 100;
+}
+div.main div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box6 > p > span {
+  display: block; font-weight: 300;
+  font-size: 90px; margin: 20px 0;
+}
+div.main div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box6 > ul.menu {
+  position: absolute; top: 400px; left: 150px;
+  display: flex; justify-content: space-between; align-items: center;
+}
+div.main div.swiper div.swiper-wrapper div.swiper-slide div.inner div.box6 ul.menu > a > li  {
+  width: 150px; color: #fff;
+}
+div.main div.swiper-button-next,div.swiper-button-prev {
+  display: none;
+}
+
+

@@ -1,0 +1,38 @@
+div.more {
+    width: 100%;
+    margin-top: 250px;
+}
+div.more div.inner {
+    width: 1420px;
+    margin: 0 auto;
+    position: relative;
+}
+div.more div.inner > p {
+    font-size: 36px; font-weight: bold;
+    color: #808080;
+}
+div.more div.inner ul.contents {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-top: 50px;
+}
+div.more div.inner ul.contents li img {
+    width: 400px;
+    box-shadow: 2px 2px 2px #808080;
+}
+div.more div.inner ul.contents li p {
+    width: 400px; font-size: 24px;
+    margin-top: 30px;
+  }
+  div.more div.inner ul.contents li p span {
+    display: block; font-size: 14px;
+    margin-top: 30px; width: 340px;
+  }
+  div.more div.inner ul.contents li a {
+    display: block; font-size: 14px;
+    margin-top: 30px; width: 150px;
+    color: #666666;
+  }
+  div.more div.inner ul.contents li a:hover {
+    text-decoration: underline; 
+    color: #fff; transition: 1s;
+  }

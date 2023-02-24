@@ -1,0 +1,341 @@
+div.modelview {
+  width: 100%;
+  margin-top: 250px;
+}
+div.modelview div.swiper {
+  width: 1620px; height: 700px;
+}
+div.modelview div.swiper > p {
+  font-size: 56px; font-weight: bold; text-align: center;
+}
+div.modelview div.swiper > p > span{
+  display: block;
+  font-size: 14px; font-weight: 100; margin-top: 20px;
+}
+div.modelview div.swiper div.swiper-slide div.inner {
+  width: 100%;
+  position: relative;
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view1 {
+  width: 100%;
+  position: absolute; top: 200px;
+  display: flex; justify-content: space-around; align-items: center;
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view1 li a{
+  width: 400px;
+  display: block;
+}
+
+
+div.modelview div.swiper div.swiper-slide div.inner ul.view1 li:nth-child(1) div.g70 > img.g70-a{
+  width: 400px;
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view1 li:nth-child(1) div.g70 > img.g70-b{
+  width: 400px; border-radius: 10px; box-shadow: 5px 5px 5px #808080;
+  position: absolute; top: 0; display: none;
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view1 li:nth-child(1) div.g70:hover > img.g70-b{
+display: block; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view1 li:nth-child(1) div.g70 > ul.g70_ {
+display:none; 
+font-size: 20px; position: absolute; top: 8px; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view1 li:nth-child(1) div.g70 > ul.g70_ > li {
+  height: 60px; text-align: center; width: 100px;  font-weight: bold;
+  line-height: 60px; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view1 li:nth-child(1) div.g70 > ul.g70_ > li > a:hover {
+  text-decoration: underline; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view1 li:nth-child(1) div.g70:hover ul.g70_ {
+  display: block; 
+  }
+
+
+div.modelview div.swiper div.swiper-slide div.inner ul.view1 li:nth-child(2) div.g80 > img.g80-a{
+  width: 400px;
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view1 li:nth-child(2) div.g80 > img.g80-b{
+  width: 400px; border-radius: 10px; box-shadow: 5px 5px 5px #808080;
+  position: absolute; top: 0; display: none;
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view1 li:nth-child(2) div.g80:hover > img.g80-b{
+display: block; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view1 li:nth-child(2) div.g80 > ul.g80_ {
+display:none; 
+font-size: 20px; position: absolute; top: 8px; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view1 li:nth-child(2) div.g80 > ul.g80_ > li {
+  height: 60px; text-align: center; width: 100px;  font-weight: bold;
+  line-height: 60px; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view1 li:nth-child(2) div.g80 > ul.g80_ > li > a:hover {
+  text-decoration: underline; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view1 li:nth-child(2) div.g80:hover ul.g80_ {
+  display: block; 
+  }
+
+
+  div.modelview div.swiper div.swiper-slide div.inner ul.view1 li:nth-child(3) div.g90 > img.g90-a{
+  width: 400px;
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view1 li:nth-child(3) div.g90 > img.g90-b{
+  width: 400px; border-radius: 10px; box-shadow: 5px 5px 5px #808080;
+  position: absolute; top: 0; display: none;
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view1 li:nth-child(3) div.g90:hover > img.g90-b{
+display: block; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view1 li:nth-child(3) div.g90 > ul.g90_ {
+display:none; 
+font-size: 20px; position: absolute; top: 8px; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view1 li:nth-child(3) div.g90 > ul.g90_ > li {
+  height: 60px; text-align: center; width: 100px;  font-weight: bold;
+  line-height: 60px; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view1 li:nth-child(3) div.g90 > ul.g90_ > li > a:hover {
+  text-decoration: underline; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view1 li:nth-child(3) div.g90:hover ul.g90_ {
+  display: block; 
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.modelview div.swiper div.swiper-slide div.inner ul.view2 {
+  width: 100%;
+  position: absolute; top: 200px;
+  display: flex; justify-content: space-around; align-items: center;
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view2 li a{
+  width: 400px;
+  display: block;
+}
+
+
+div.modelview div.swiper div.swiper-slide div.inner ul.view2 li:nth-child(1) div.gv60 > img.gv60-a{
+  width: 400px;
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view2 li:nth-child(1) div.gv60 > img.gv60-b{
+  width: 400px; border-radius: 10px; box-shadow: 5px 5px 5px #808080;
+  position: absolute; top: 0; display: none;
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view2 li:nth-child(1) div.gv60:hover > img.gv60-b{
+display: block; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view2 li:nth-child(1) div.gv60 > ul.gv60_ {
+display:none; 
+font-size: 20px; position: absolute; top: 8px; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view2 li:nth-child(1) div.gv60 > ul.gv60_ > li {
+  height: 60px; text-align: center; width: 100px;  font-weight: bold;
+  line-height: 60px; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view2 li:nth-child(1) div.gv60 > ul.gv60_ > li > a:hover {
+  text-decoration: underline; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view2 li:nth-child(1) div.gv60:hover ul.gv60_ {
+  display: block; 
+  }
+
+
+
+  div.modelview div.swiper div.swiper-slide div.inner ul.view2 li:nth-child(2) div.gv70 > img.gv70-a{
+    width: 400px;
+  }
+  div.modelview div.swiper div.swiper-slide div.inner ul.view2 li:nth-child(2) div.gv70 > img.gv70-b{
+    width: 400px; border-radius: 10px; box-shadow: 5px 5px 5px #808080;
+    position: absolute; top: 0; display: none;
+  }
+  div.modelview div.swiper div.swiper-slide div.inner ul.view2 li:nth-child(2) div.gv70:hover > img.gv70-b{
+  display: block; 
+  }
+  div.modelview div.swiper div.swiper-slide div.inner ul.view2 li:nth-child(2) div.gv70 > ul.gv70_ {
+  display:none; 
+  font-size: 20px; position: absolute; top: 8px; 
+  }
+  div.modelview div.swiper div.swiper-slide div.inner ul.view2 li:nth-child(2) div.gv70 > ul.gv70_ > li {
+    height: 60px; text-align: center; width: 100px;  font-weight: bold;
+    line-height: 60px; 
+  }
+  div.modelview div.swiper div.swiper-slide div.inner ul.view2 li:nth-child(2) div.gv70 > ul.gv70_ > li > a:hover {
+    text-decoration: underline; 
+  }
+  div.modelview div.swiper div.swiper-slide div.inner ul.view2 li:nth-child(2) div.gv70:hover ul.gv70_ {
+    display: block; 
+    }
+
+
+
+
+    div.modelview div.swiper div.swiper-slide div.inner ul.view2 li:nth-child(3) div.gv80 > img.gv80-a{
+      width: 400px;
+    }
+    div.modelview div.swiper div.swiper-slide div.inner ul.view2 li:nth-child(3) div.gv80 > img.gv80-b{
+      width: 400px; border-radius: 10px; box-shadow: 5px 5px 5px #808080;
+      position: absolute; top: 0; display: none;
+    }
+    div.modelview div.swiper div.swiper-slide div.inner ul.view2 li:nth-child(3) div.gv80:hover > img.gv80-b{
+    display: block; 
+    }
+    div.modelview div.swiper div.swiper-slide div.inner ul.view2 li:nth-child(3) div.gv80 > ul.gv80_ {
+    display:none; 
+    font-size: 20px; position: absolute; top: 8px; 
+    }
+    div.modelview div.swiper div.swiper-slide div.inner ul.view2 li:nth-child(3) div.gv80 > ul.gv80_ > li {
+      height: 60px; text-align: center; width: 100px;  font-weight: bold;
+      line-height: 60px; 
+    }
+    div.modelview div.swiper div.swiper-slide div.inner ul.view2 li:nth-child(3) div.gv80 > ul.gv80_ > li > a:hover {
+      text-decoration: underline; 
+    }
+    div.modelview div.swiper div.swiper-slide div.inner ul.view2 li:nth-child(3) div.gv80:hover ul.gv80_ {
+      display: block; 
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.modelview div.swiper div.swiper-slide div.inner ul.view3 {
+  width: 100%;
+  position: absolute; top: 200px;
+  display: flex; justify-content: space-around; align-items: center;
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view3 li a{
+  width: 400px;
+  display: block;
+}
+
+
+div.modelview div.swiper div.swiper-slide div.inner ul.view3 li:nth-child(1) div.g70sb > img.g70sb-a{
+  width: 400px; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view3 li:nth-child(1) div.g70sb > img.g70sb-b{
+  width: 400px; border-radius: 10px; box-shadow: 5px 5px 5px #808080;
+  position: absolute; top: 0; display: none;
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view3 li:nth-child(1) div.g70sb:hover > img.g70sb-b{
+display: block; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view3 li:nth-child(1) div.g70sb > ul.g70sb_ {
+display:none; 
+font-size: 20px; position: absolute; top: 8px; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view3 li:nth-child(1) div.g70sb > ul.g70sb_ > li {
+  height: 60px; text-align: center; width: 100px;  font-weight: bold;
+  line-height: 60px; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view3 li:nth-child(1) div.g70sb > ul.g70sb_ > li > a:hover {
+  text-decoration: underline; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view3 li:nth-child(1) div.g70sb:hover ul.g70sb_ {
+  display: block; 
+  }
+
+
+  div.modelview div.swiper div.swiper-slide div.inner ul.view3 li:nth-child(2) div.g80e > img.g80e-a{
+  width: 400px; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view3 li:nth-child(2) div.g80e > img.g80e-b{
+  width: 400px; border-radius: 10px; box-shadow: 5px 5px 5px #808080;
+  position: absolute; top: 0; display: none;
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view3 li:nth-child(2) div.g80e:hover > img.g80e-b{
+display: block; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view3 li:nth-child(2) div.g80e > ul.g80e_ {
+display:none; 
+font-size: 20px; position: absolute; top: 8px; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view3 li:nth-child(2) div.g80e > ul.g80e_ > li {
+  height: 60px; text-align: center; width: 100px;  font-weight: bold;
+  line-height: 60px; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view3 li:nth-child(2) div.g80e > ul.g80e_ > li > a:hover {
+  text-decoration: underline; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view3 li:nth-child(2) div.g80e:hover ul.g80e_ {
+  display: block; 
+  }
+
+
+  div.modelview div.swiper div.swiper-slide div.inner ul.view3 li:nth-child(3) div.gv70e > img.gv70e-a{
+  width: 400px; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view3 li:nth-child(3) div.gv70e > img.gv70e-b{
+  width: 400px; border-radius: 10px; box-shadow: 5px 5px 5px #808080;
+  position: absolute; top: 0; display: none;
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view3 li:nth-child(3) div.gv70e:hover > img.gv70e-b{
+display: block; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view3 li:nth-child(3) div.gv70e > ul.gv70e_ {
+display:none; 
+font-size: 20px; position: absolute; top: 8px; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view3 li:nth-child(3) div.gv70e > ul.gv70e_ > li {
+  height: 60px; text-align: center; width: 100px;  font-weight: bold;
+  line-height: 60px; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view3 li:nth-child(3) div.gv70e > ul.gv70e_ > li > a:hover {
+  text-decoration: underline; 
+}
+div.modelview div.swiper div.swiper-slide div.inner ul.view3 li:nth-child(3) div.gv70e:hover ul.gv70e_ {
+  display: block; 
+  }
+
+
+
+  div.swiper-button-prev {
+    display: none;
+  }
+  div.swiper-button-next {
+    color: #808080; position: absolute; top: 400px; right: 0;
+  }
+  div.swiper-button-next:hover {
+    color: #fff;
+  }
+
