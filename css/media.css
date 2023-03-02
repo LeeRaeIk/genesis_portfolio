@@ -2,54 +2,76 @@
     header { width:  100%;}
     header div.inner { width:  100%;}
     section.main-banner div.inner div.swiper { width: 100%; height: 100%;}
-    section.model-view div.model div.swiper-slide  {width: 100%; }
+    div.model div.swiper  {width: 100%; }
+    
 }
 @media screen and (min-width:860px) and (max-width:1199px) {
     header { width:  100%;}
     header div.inner { width:  100%;}
     header div.inner div.main-navigation { position: absolute;
     left: 200px;}
-    header div.inner div.sub-navigation  {
-        position: absolute; right: -70px ; 
-    }
+    
     header div.inner div.sub-navigation ul.sub li:nth-child(1) {
         display: none;
     }
     section.main-banner div.inner div.swiper { width: 100%; height: 80%;}
     section.main-banner div.inner div.swiper-slide > p {
         position: absolute; top: 20px; left: 50px;
-        font-size: 24px; 
-    }
-    section.main-banner div.inner div.swiper-slide > p > span {
-        font-size: 86px;
-    }
-    section.main-banner div.inner div.swiper-slide ul.menu {
-        display: none;
-    }
-    
-}   
-@media screen and (min-width:460px) and (max-width:859px) {
-    header { width: 100%;}
-    header div.inner { width: 100%;}
-    header div.inner div.main-navigation { display: none;}
-    header div.inner div.sub-navigation ul.sub li:nth-child(1) {
-        display: none;
-    }
-    header div.inner div.sub-navigation ul.sub li:nth-child(3) {
-        display: none;
-    }
-    header div.inner div.sub-navigation  {
-        position: absolute; right: -130px;  
-    }
-    section.main-banner div.inner div.swiper { width: 100%; height: 100%;}
-    section.main-banner div.inner div.swiper-slide > p {
-        position: absolute; top: 20px; left: 50px;
-        font-size: 18px; 
+        font-size: 16px; 
     }
     section.main-banner div.inner div.swiper-slide > p > span {
         font-size: 56px;
     }
     section.main-banner div.inner div.swiper-slide ul.menu {
         display: none;
+    }
+    div.model { width: 100%; }
+    div.model div.swiper { width: 100%;}
+    div.model div.swiper-slide ul.more {
+        color: #fff; display: flex; justify-content: space-around; width: 400px;
+      font-size: 16px; text-align: center;  line-height: 40px;
+        position: absolute;  top: 50%; left: 50%; display: none;  
+        transform: translate(-50%,-50%);
+    }
+}   
+@media screen and (min-width:460px) and (max-width:859px) {
+    header { width: 100%;}
+    header div.inner { width: 100%;}
+    header div.inner div.main-navigation { display: none;}
+    header div.inner div.sub-navigation ul.sub li { width: 40px;}
+    header div.inner div.sub-navigation ul.sub li:nth-child(1) {
+        display: none; width: 0;
+    } 
+    header div.inner div.sub-navigation ul.sub li:nth-child(2) {
+        display: none; width: 0;
+    }
+    header div.inner div.sub-navigation ul.sub  {
+           width: 60px; position: absolute; right: 0;
+    }
+    section.main-banner div.inner div.swiper { width: 100%; height: 100%;}
+    section.main-banner div.inner div.swiper-slide > p {
+        position: absolute; top: 20px; left: 50px;
+        font-size: 12px; 
+    }
+    section.main-banner div.inner div.swiper-slide > p > span {
+        font-size: 36px;
+    }
+    section.main-banner div.inner div.swiper-slide ul.menu {
+        display: none;
+    }
+    div.model { width: 100%;}
+    div.model div.swiper { width: 50%;}
+    div.model div.swiper  > p {
+        font-size: 24px; font-weight: 700; text-align: center;
+    }
+    div.model div.swiper  > p > span {
+        display: block; font-size: 12px; margin-top: 20px;
+        font-weight: 100; display: none;
+    }
+    div.model div.swiper-slide ul.more {
+        color: #fff; display: flex; justify-content: space-around; width: 400px;
+      font-size: 18px; text-align: center;
+        position: absolute;  top: 50%; left: 50%; display: none;  line-height: 50px;
+        transform: translate(-50%,-50%);
     }
 }
