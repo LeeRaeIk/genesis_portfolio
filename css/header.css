@@ -5,47 +5,64 @@
 li { list-style: none; }
 a { color: inherit; text-decoration: none;}
 img { display: block; }
-body { box-sizing: border-box; color: #fff; }
+body { box-sizing: border-box; color: #fff;
+background-color: #000; }
 
 div#wrap {
   width: 100%;
-  background-color: #000;
 }
-
 header {
-  width: 100%; height: 100px;
+  width: 100%;
+  color: #d7d7d7eb;
   position: relative;
+  z-index: 100;
 }
 header div.inner {
-  width: 100%; position: relative;
-  display: flex; justify-content: space-around; align-items: center; position: fixed; top: 0; left: 0; z-index: 50;
-  background-color: #000; color: #fff;
+  width: 1620px; height: 70px; 
+  background-color: #000;
+  display: flex; justify-content: space-between;
+  margin: 0 auto; 
+  
 }
-header div.inner div.logobox {
-  width: 300px; height: 100px;
+header div.inner div.logo {
+  width: 100px; height: 70px;
+  padding: 0 50px;
 }
-header div.inner div.logobox a > img {
-  width: 200px; height: 40px;
-  padding: 30px 50px;
+header div.inner div.logo > a{
+  width: 100px; height: 70px;
 }
-header div.inner div.mainmenu ul.gnb {
-  display: flex; justify-content: space-around; align-items: center;
+header div.inner div.logo > a > img{
+  width: 100px; height: 20px;
+  padding: 25px 0;
 }
-header div.inner div.mainmenu ul.gnb li {
-  text-align: center; width: 100px;
+header div.inner div.main-navigation {
+  height: 70px; 
 }
-header div.inner div.submenu ul.sub  {
-  display: flex; justify-content: space-around; align-items: center;
+header div.inner div.main-navigation ul.gnb {
+  height: 70px;  width: 400px;
+  display: flex; justify-content: space-around;
 }
-header div.inner div.submenu ul.sub li {
-  text-align: center; width: 100px;
+header div.inner div.main-navigation ul.gnb li{
+  width: 65px;  height: 70px;
+  line-height: 70px; text-align: center; 
 }
-
-
-@media all and (min-width:1200px) {
-  header { font-size: 18px; font-weight: 500;}
+header div.inner div.main-navigation ul.gnb li:hover{
+  color: #fff;
+  transition: 1.5s;
 }
-@media all and (max-width:1199px) {
-  header { font-size: 18px;}
-  header div.inner div.submenu ul.sub li { width: 100px; }
+header div.inner div.sub-navigation {
+  height: 70px;
+}
+header div.inner div.sub-navigation ul.sub {
+  height: 70px; width: 400px;
+  display: flex; justify-content: center; 
+}
+header div.inner div.sub-navigation ul.sub li{
+  width: 100px;  height: 70px;
+  line-height: 70px; text-align: center;
+  display: flex; justify-content: space-around;
+}
+header div.inner div.sub-navigation ul.sub li:hover{
+color: #fff;
+transition: 1.5s;
 }

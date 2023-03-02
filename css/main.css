@@ -1,0 +1,17 @@
+section.main-banner { position:  relative;}
+section.main-banner div.inner div.swiper { width: 100%; height: 100%;}
+section.main-banner div.inner div.swiper div.swiper-wrapper div.swiper-slide img {
+  width: 100%; height: 100%; 
+}
+section.main-banner div.inner div.swiper-slide p {
+  position: absolute; top: 100px; left: 130px; width: 500px;
+  font-size: 24px; text-align: left; color: #fff; font-weight: 300;
+}
+section.main-banner div.inner div.swiper-slide > p > span {
+  display: block;  
+  font-size: 100px; font-weight: 100;
+}
+section.main-banner div.inner div.swiper-slide ul.menu {
+  position: absolute; top: 400px; left: 95px; width: 300px;
+  display: flex; justify-content: space-around; color: #fff;
+}

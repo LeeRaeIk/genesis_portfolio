@@ -11,6 +11,7 @@ div.space div.swiper div.swiper-wrapper div.swiper-slide {
 div.space {
   width: 1420px;
   margin: 0 auto;
+  outline: 1px solid red;
   margin-top: 250px;
 }
 div.space div.swiper div.swiper-wrapper div.swiper-slide div.space_main {

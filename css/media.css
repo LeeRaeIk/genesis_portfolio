@@ -1,0 +1,55 @@
+@media screen and (min-width:1200px) and (max-width:1920px) {
+    header { width:  100%;}
+    header div.inner { width:  100%;}
+    section.main-banner div.inner div.swiper { width: 100%; height: 100%;}
+    section.model-view div.model div.swiper-slide  {width: 100%; }
+}
+@media screen and (min-width:860px) and (max-width:1199px) {
+    header { width:  100%;}
+    header div.inner { width:  100%;}
+    header div.inner div.main-navigation { position: absolute;
+    left: 200px;}
+    header div.inner div.sub-navigation  {
+        position: absolute; right: -70px ; 
+    }
+    header div.inner div.sub-navigation ul.sub li:nth-child(1) {
+        display: none;
+    }
+    section.main-banner div.inner div.swiper { width: 100%; height: 80%;}
+    section.main-banner div.inner div.swiper-slide > p {
+        position: absolute; top: 20px; left: 50px;
+        font-size: 24px; 
+    }
+    section.main-banner div.inner div.swiper-slide > p > span {
+        font-size: 86px;
+    }
+    section.main-banner div.inner div.swiper-slide ul.menu {
+        display: none;
+    }
+    
+}   
+@media screen and (min-width:460px) and (max-width:859px) {
+    header { width: 100%;}
+    header div.inner { width: 100%;}
+    header div.inner div.main-navigation { display: none;}
+    header div.inner div.sub-navigation ul.sub li:nth-child(1) {
+        display: none;
+    }
+    header div.inner div.sub-navigation ul.sub li:nth-child(3) {
+        display: none;
+    }
+    header div.inner div.sub-navigation  {
+        position: absolute; right: -130px;  
+    }
+    section.main-banner div.inner div.swiper { width: 100%; height: 100%;}
+    section.main-banner div.inner div.swiper-slide > p {
+        position: absolute; top: 20px; left: 50px;
+        font-size: 18px; 
+    }
+    section.main-banner div.inner div.swiper-slide > p > span {
+        font-size: 56px;
+    }
+    section.main-banner div.inner div.swiper-slide ul.menu {
+        display: none;
+    }
+}
