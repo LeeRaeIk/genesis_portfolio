@@ -34,6 +34,9 @@ const swiper2 = new Swiper('div.model div.swiper', {
     460: {
       slidesPerView: 1,
 
+    },
+    350: {
+      slidesPerView:1,
     }
   },
 });

@@ -81,7 +81,7 @@ footer div.inner div.bottom {
 }
 footer div.inner div.bottom ul.bottommenu {
     display: flex; justify-content: space-between; align-items: center;
-    width: 1000px;
+    width: 100%;
     margin: auto;
 }
 footer div.inner div.bottom ul.bottommenu li {

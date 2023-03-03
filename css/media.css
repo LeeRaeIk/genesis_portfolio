@@ -41,11 +41,16 @@
     div.space div.swiper div.swiper-slide p { font-size: 36px; bottom: 50px;}
     div.space div.swiper div.swiper-slide p span { font-size: 12px;}
     div.space div.swiper div.swiper-slide button { width: 200px; height: 40px; bottom: 5px;}
+    /* road */
+    div.tripbox > p { top: 400px; font-size: 36px; left: 20px;}
+    div.tripbox > p > span { font-size: 12px;}
+
 
     div.awards { display: none;}
     div.more { display: none;}
     footer { width: 100%;}
-}  
+
+}   
 @media screen and (min-width:460px) and (max-width:859px) {
     header { width: 100%;}
     header div.inner { width: 100%;}
@@ -91,7 +96,93 @@
     div.space div.swiper div.swiper-slide p { font-size: 24px; bottom: 50px; left: 0;}
     div.space div.swiper div.swiper-slide p span { display: none;}
     div.space div.swiper div.swiper-slide button { width: 200px; height: 40px; bottom: 5px; left: 0;}
-    footer { width: 100%;}
+    
+    
+    div.tripbox div.swiper div.swiper-slide img { width: 50%;}
+    
+    div.tripbox > p { font-size: 24px; top: 150px; left: 20px;}
+    div.tripbox > p > span { font-size: 12px;}
+    div.tripbox div.swiper div.swiper-slide p {  font-size: 18px; left: 300px;}
+    div.tripbox div.swiper > span { font-size: 12px; }
+    div.tripbox div.swiper div.swiper-slide a { left: 260px;}
+    div.fullmenu ul.allmenu { flex-direction: column;}
+    div.fullmenu ul.allmenu2 { flex-direction: column; margin-left: 20px;}
     div.awards { display: none;}
     div.more { display: none;}
+    div.bottom { display: none;}
+    ul.allmenu li ul.model { display: none;}
+    ul.allmenu li ul.buy { display: none;}
+    ul.allmenu li ul.members { display: none;}
+    ul.allmenu li ul.exp { display: none;}
+    ul.allmenu2 li ul.genesis { display: none;}
+    ul.allmenu2 li ul.center { display: none;}
+
+    footer { width: 100%;}
+}
+
+@media screen and (min-width:350px) and (max-width:459px) {
+    header { width: 100%;}
+    header div.inner { width: 100%;}
+    header div.inner div.main-navigation { display: none;}
+    header div.inner div.sub-navigation ul.sub li { width: 40px;}
+    header div.inner div.sub-navigation ul.sub li:nth-child(1) {
+        display: none; width: 0;
+    } 
+    header div.inner div.sub-navigation ul.sub li:nth-child(2) {
+        display: none; width: 0;
+    }
+    header div.inner div.sub-navigation ul.sub  {
+           width: 60px; position: absolute; right: 0;
+    }
+    section.main-banner div.inner div.swiper-slide p {
+        top: 10px; font-size: 8px; left: 20px;
+    }
+    section.main-banner div.inner div.swiper-slide > p > span {
+        display: block;  
+        font-size: 24px; font-weight: 100;
+      }
+      div.model { width: 100%;}
+    div.model div.swiper { width: 50%;}
+    div.model div.swiper  > p {
+        font-size: 24px; font-weight: 700; text-align: center;
+    }
+    div.model div.swiper  > p > span {
+        display: block; font-size: 12px; margin-top: 20px;
+        font-weight: 100; display: none;
+    }
+    div.model div.swiper-slide ul.more {
+        color: #fff; display: flex; justify-content: space-around; width: 400px;
+      font-size: 18px; text-align: center;
+        position: absolute;  top: 50%; left: 50%; display: none;  line-height: 30px;
+        transform: translate(-50%,-50%);}
+
+    div.space div.swiper div.swiper-slide:nth-child(2) { display: none;}
+    div.space div.swiper div.swiper-slide p { font-size: 12px; bottom: 50px; left: 10px;}
+    div.space div.swiper div.swiper-slide p span { display: none;}
+    div.space div.swiper div.swiper-slide button { font-size: 12px; width: 100px; height: 20px; bottom: 5px; left: 10px;}
+    
+    div.awards { display: none;}
+    div.more { display: none;}
+
+    div.tripbox div.swiper div.swiper-slide img { width: 50%;}
+    
+    div.tripbox > p { font-size: 16px; top: 90px; left: 20px; text-align: center;}
+    div.tripbox > p > span { font-size: 12px;}
+    div.tripbox div.swiper div.swiper-slide p {  font-size: 18px; top: 10px; left: 200px;}
+    div.tripbox div.swiper > span { font-size: 12px; }
+    div.tripbox div.swiper div.swiper-slide a { width: 130px; height: 20px; left: 200px;
+    font-size: 12px; line-height: 20px;}
+
+    div.fullmenu ul.allmenu { flex-direction: column;}
+    div.fullmenu ul.allmenu2 { flex-direction: column; margin-left: 20px;}
+    div.bottom { display: none;}
+    ul.allmenu li ul.model { display: none;}
+    ul.allmenu li ul.buy { display: none;}
+    ul.allmenu li ul.members { display: none;}
+    ul.allmenu li ul.exp { display: none;}
+    ul.allmenu2 li ul.genesis { display: none;}
+    ul.allmenu2 li ul.center { display: none;}
+
+    footer { width: 100%;}
+
 }
